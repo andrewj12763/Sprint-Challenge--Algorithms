@@ -11,6 +11,7 @@ class Test(unittest.TestCase):
         self.word = ""
         count = count_th(self.word)
         self.assertEqual(0, count)
+        # print(count)
 
     def test_count_th_single(self):
         self.word = "abcthxyz"
